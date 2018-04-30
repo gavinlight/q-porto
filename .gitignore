@@ -1,0 +1,24 @@
+.DS_Store
+node_modules/
+/dist/
+!/dist/index.php
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/test/unit/coverage
+
+.git
+static/img/
+static/icons/
+static/fonts/
+src/assets/
+src/vendor/
+package-lock.json
+
+# Editor directories and files
+.idea
+*.jshintrc
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
