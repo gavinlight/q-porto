@@ -4,7 +4,7 @@
 
     <main>
         <h1>Project</h1>
-        <h2>{{ $route.params.name }}</h2>
+        <h2>{{ $route.params.slug }}</h2>
     </main>
 
     <!-- <footer-layout /> -->

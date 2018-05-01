@@ -12,3 +12,11 @@ export default {
 }
 
 </script>
+
+<style>
+
+    body, html {
+        background-color: #EBEFF1;
+    }
+
+</style>

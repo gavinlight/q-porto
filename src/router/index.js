@@ -2,8 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 Vue.use(Router);
 
-import PageHome from '../pages/Home';
-import PageProject from '../pages/Project';
+import PageHome from '../components/pages/Home';
+import PageProject from '../components/pages/Project';
 
 const router = new Router({
     routes: [

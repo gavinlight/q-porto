@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Project Picture",
+        "slug": "project-picture",
+
+        "client": "VU Medisch Centrum",
+        "run-time": "December 2017 - Heden",
+        "team": "Active Collective",
+        "role": "User Experience Designer, Project Manager",
+
+        "icon": "diamond",
+        "content": ""
+    },
+    {
+        "title": "Creative Code",
+        "slug": "creative-code",
+
+        "client": "Hogeschool van Amsterdam",
+        "run-time": "Februari 2017 - September 2017",
+        "team": "Quen Design",
+        "role": "Designertje",
+
+        "icon": "bracket",
+        "content": ""
+    },
+    {
+        "title": "Mijn Lidl",
+        "slug": "mijn-lidl",
+
+        "client": "Lidl Nederland",
+        "run-time": "Maart 2017 - April 2018",
+        "team": "Active Collective",
+        "role": "User Experience Designer, Project Manager",
+
+        "icon": "phone",
+        "content": ""
+    }
+]
