@@ -2,8 +2,8 @@
 
     <section class="projects-overview">
 
-        <template v-for="project in projects">
-            <project :project="project"></project>
+        <template v-for="(project, index) in projects">
+            <project :index="index" :project="project"></project>
         </template>
 
     </section>

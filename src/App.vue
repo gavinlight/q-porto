@@ -13,10 +13,11 @@ export default {
 
 </script>
 
-<style>
+<style lang="scss">
+    @import 'src/config.scss';
 
-    body, html {
-        background-color: #EBEFF1;
+    html, body {
+        background-color: $color-light-blue;
+        font-family: $font-text;
     }
-
 </style>

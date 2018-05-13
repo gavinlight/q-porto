@@ -24,7 +24,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
-			'styles': './src/config.scss',
+	  'styles': './src/config.scss',
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
       'util$': path.resolve(__dirname, 'node_modules/util')
@@ -41,6 +41,10 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         include: [resolve('src'), resolve('test')]
+      },
+      {
+        test: /\.s[a|c]ss$/,
+        loader: 'style!css!sass'
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
