@@ -9,8 +9,49 @@
         "role": "User Experience Designer, Project Manager",
 
         "icon": "diamond",
-        "background": "brain",
-        "content": ""
+        "content": "",
+
+        "parallax_items": [
+            {
+                "background": "brain.png",
+                "width": 200,
+                "height": 173,
+                "speed": 50,
+
+                "position": {
+                    "right": "auto",
+                    "left": "85px",
+                    "top": "145px",
+                    "bottom": "auto"
+                }
+            },
+            {
+                "background": "brain.png",
+                "width": 317,
+                "height": 274,
+                "speed": 100,
+
+                "position": {
+                    "right": "-100px",
+                    "left": "auto",
+                    "top": "58px",
+                    "bottom": "auto"
+                }
+            },
+            {
+                "background": "brain.png",
+                "width": 216,
+                "height": 187,
+                "speed": 280,
+
+                "position": {
+                    "right": "512px",
+                    "left": "auto",
+                    "top": "auto",
+                    "bottom": "-100px"
+                }
+            }
+        ]
     },
     {
         "title": "Creative Code",
@@ -22,8 +63,62 @@
         "role": "Designertje",
 
         "icon": "bracket",
-        "background": "robot",
-        "content": ""
+        "content": "",
+
+        "parallax_items": [
+            {
+                "background": "robot.png",
+                "width": 162,
+                "height": 162,
+                "speed": 70,
+
+                "position": {
+                    "right": "40px",
+                    "left": "auto",
+                    "top": "-37px",
+                    "bottom": "auto"
+                }
+            },
+            {
+                "background": "robot.png",
+                "width": 106,
+                "height": 106,
+                "speed": 100,
+
+                "position": {
+                    "right": "auto",
+                    "left": "150px",
+                    "top": "102px",
+                    "bottom": "auto"
+                }
+            },
+            {
+                "background": "robot.png",
+                "width": 148,
+                "height": 148,
+                "speed": 300,
+
+                "position": {
+                    "right": "auto",
+                    "left": "69px",
+                    "top": "auto",
+                    "bottom": "30px"
+                }
+            },
+            {
+                "background": "robot.png",
+                "width": 75,
+                "height": 75,
+                "speed": 340,
+
+                "position": {
+                    "right": "130px",
+                    "left": "auto",
+                    "top": "auto",
+                    "bottom": "80px"
+                }
+            }
+        ]
     },
     {
         "title": "Mijn Lidl",
@@ -35,7 +130,8 @@
         "role": "User Experience Designer, Project Manager",
 
         "icon": "bracket",
-        "background": "",
-        "content": ""
+        "content": "",
+
+        "parallax_items": []
     }
 ]

@@ -1,10 +1,16 @@
 <template>
 
     <article class="project" :id="'project-' + project.slug">
-        <template v-if="index < 2">
-            <img class="parallax-item" :src="backgroundUrl()" />
-            <img class="parallax-item" :src="backgroundUrl()" />
-            <img class="parallax-item" :src="backgroundUrl()" />
+
+        <template v-for="item in project.parallax_items">
+            <parallax-item
+                :background="item.background"
+                :position="item.position"
+                :width="item.width"
+                :height="item.height"
+                :speed="item.speed"
+                :index="index"
+            ></parallax-item>
         </template>
 
         <div class="project-content-container">
@@ -17,8 +23,11 @@
 </template>
 
 <script>
+    import ParallaxItem from '@/components/sections/parallaxitem';
+
     export default {
         name: 'Project',
+        components: { ParallaxItem },
         props: {
             'project': {
                 default: {},
@@ -32,9 +41,6 @@
         methods: {
             iconUrl: function(){
                 return '/static/img/icons/' + this.project.icon + '.svg';
-            },
-            backgroundUrl: function(){
-                return '/static/img/backgrounds/' + this.project.background + '.png';
             }
         }
     }
@@ -44,21 +50,15 @@
 
     article.project {
         height: 100vh;
-        display: table;
         width: 100%;
-
-        > .parallax-item {
-            position: absolute;
-        }
+        display: table;
+        position: relative;
 
         > .project-content-container {
             display: table-cell;
             text-align: center;
             vertical-align: middle;
 
-            > img {
-
-            }
 
             > h1 {
                 margin: .3em 0;
