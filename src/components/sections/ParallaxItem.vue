@@ -56,7 +56,6 @@
             }
         },
         mounted(){
-            console.log(this.index);
             var scene = new ScrollMagic.Scene({
                 triggerElement: this.$parent.$el, // starting scene, when reaching this element
                 triggerHook: (this.index === 0 ? 'onLeave' : 0.5),

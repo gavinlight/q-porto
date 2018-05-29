@@ -3,7 +3,7 @@
     <section class="projects-overview">
 
         <template v-for="(project, index) in projects">
-            <project :index="index" :project="project"></project>
+            <project-item :index="index" :project="project"></project-item>
         </template>
 
     </section>
@@ -12,13 +12,15 @@
 
 <script>
     import Projects from '@/data/projects.json';
-    import Project from '@/components/sections/project';
+    import ProjectItem from '@/components/sections/projectitem';
 
     export default {
         name: 'ProjectsOverview',
-        components: { Project },
+        components: { ProjectItem },
         data() {
-            return {'projects': Projects}
+            return {
+                'projects': Projects
+            }
         }
     }
 

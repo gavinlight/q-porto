@@ -7,9 +7,11 @@
         "run_time": "December 2017 - Heden",
         "team": "Active Collective",
         "role": "User Experience Designer, Project Manager",
-
         "icon": "diamond",
-        "content": "",
+
+        "intro": "<p>Met dit afstudeerproject wordt er antwoord gegeven op de design challenge: “Hoe kan een interactieve digitale toepassing ervoor zorgen dat meisjes tussen de 10 en 12 jaar programmeren gaan zien als een middel om creativiteit te uiten, zodat ze gemotiveerd worden om later een technische studie te kiezen?”</p><p>Dit is begonnen met een essentieel vooronderzoek dat het probleem definieert en de design challenge definieert. Daarna volgende het gebruikersonderzoek waaruit bleek dat kinderen vooral extrinsiek gemotiveerd moeten worden.</p>",
+        "header_image": "creative-code-header.jpg",
+        "content": "<p>Vervolgens splitste het onderzoek zich uit in drie onderdelen. Allereerst heb ik onderzocht wat motivatie is en hoe intrinsieke en extrinsieke motivatie werkt bij kinderen tussen de 10 en 12 jaar. Door middel van het Fogg Behaviour Model wordt gekeken wanneer acties ‘falen’ als het gaat om de motivatie, trigger en ability en hoe we die motivatie bij kinderen stapsgewijs kunnen opvoeren.</p><p>Vervolgens heb ik onderzoek gedaan naar creativiteit en hoe belangrijk creativiteit is in deze design challenge. Hier ben ik tot de conclusie gekomen dat creativiteit bestaat uit drie onderdelen: nieuwheid, waarde en vaardigheid. Daaruit heb ik besloten dat vaardigheid het onderdeel is waar op gefocust wordt in dit project. Als laatste heb ik onderzoek gedaan over seductive design en haar principes en hoe deze toegepast kunnen worden in het design.</p><p>Op basis van dit onderzoek is een concept ontwikkeld. Een lesprogramma voor groep 7 en 8 waar meisjes kennis maken met programmeren en leren dat code een tool kan zijn om creativiteit te uiten. Net als pen, papier, verf, lijm, glitters et cetera. Het concept en het ontwerp zijn op de doelgroep getest en de feedback is op een iteratieve manier verwerkt.</p><img src='http://placehold.it/1000x500' /><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas metus vitae tincidunt pharetra. Etiam at mauris lacinia, aliquet metus et, efficitur lorem. Sed venenatis rhoncus congue. Nam eu magna vitae neque varius porttitor vel sit amet nisl. Aenean aliquam quam et orci venenatis sodales. Sed sollicitudin commodo sem a mollis. Fusce lacinia vehicula dolor eu commodo. Aenean at porttitor libero, non fringilla leo. Praesent eget nibh velit. Curabitur in tristique nulla, sed fringilla ipsum. Phasellus pretium, lorem vitae viverra dapibus, turpis purus finibus sem, et malesuada orci libero vitae nulla. Nullam consequat volutpat magna in congue. Mauris ipsum libero, facilisis ac ultrices non, tincidunt posuere felis. Phasellus in libero porttitor, tincidunt purus nec, luctus magna. Etiam in sem et lorem suscipit mollis non id orci. Phasellus quis pharetra lacus.</p><img src='http://placehold.it/1000x500' /><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas metus vitae tincidunt pharetra. Etiam at mauris lacinia, aliquet metus et, efficitur lorem. Sed venenatis rhoncus congue. Nam eu magna vitae neque varius porttitor vel sit amet nisl. Aenean aliquam quam et orci venenatis sodales. Sed sollicitudin commodo sem a mollis. Fusce lacinia vehicula dolor eu commodo. Aenean at porttitor libero, non fringilla leo. Praesent eget nibh velit. Curabitur in tristique nulla, sed fringilla ipsum. Phasellus pretium, lorem vitae viverra dapibus, turpis purus finibus sem, et malesuada orci libero vitae nulla. Nullam consequat volutpat magna in congue. Mauris ipsum libero, facilisis ac ultrices non, tincidunt posuere felis. Phasellus in libero porttitor, tincidunt purus nec, luctus magna. Etiam in sem et lorem suscipit mollis non id orci. Phasellus quis pharetra lacus.</p><img src='http://placehold.it/1000x500' /><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas metus vitae tincidunt pharetra. Etiam at mauris lacinia, aliquet metus et, efficitur lorem. Sed venenatis rhoncus congue. Nam eu magna vitae neque varius porttitor vel sit amet nisl. Aenean aliquam quam et orci venenatis sodales. Sed sollicitudin commodo sem a mollis. Fusce lacinia vehicula dolor eu commodo. Aenean at porttitor libero, non fringilla leo. Praesent eget nibh velit. Curabitur in tristique nulla, sed fringilla ipsum. Phasellus pretium, lorem vitae viverra dapibus, turpis purus finibus sem, et malesuada orci libero vitae nulla. Nullam consequat volutpat magna in congue. Mauris ipsum libero, facilisis ac ultrices non, tincidunt posuere felis. Phasellus in libero porttitor, tincidunt purus nec, luctus magna. Etiam in sem et lorem suscipit mollis non id orci. Phasellus quis pharetra lacus.</p><img src='http://placehold.it/1000x500' />",
 
         "parallax_items": [
             {
@@ -123,6 +125,34 @@
     {
         "title": "Mijn Lidl",
         "slug": "mijn-lidl",
+
+        "client": "Lidl Nederland",
+        "run_time": "Maart 2017 - April 2018",
+        "team": "Active Collective",
+        "role": "User Experience Designer, Project Manager",
+
+        "icon": "bracket",
+        "content": "",
+
+        "parallax_items": []
+    },
+    {
+        "title": "Onere",
+        "slug": "onere",
+
+        "client": "Lidl Nederland",
+        "run_time": "Maart 2017 - April 2018",
+        "team": "Active Collective",
+        "role": "User Experience Designer, Project Manager",
+
+        "icon": "bracket",
+        "content": "",
+
+        "parallax_items": []
+    },
+    {
+        "title": "Blij Nederland",
+        "slug": "blij-nederland",
 
         "client": "Lidl Nederland",
         "run_time": "Maart 2017 - April 2018",
