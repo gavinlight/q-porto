@@ -57,8 +57,8 @@
             handleScroll: function() {
                 TweenMax.to(
                     this.scroll_indicator,
-                    .2,
-                    { width: this.getScrollPercentage() + '%', ease: Power1.easeInOut  }
+                    0,
+                    { width: this.getScrollPercentage() + '%' }
                 );
             },
             getScrollPercentage: function() {
