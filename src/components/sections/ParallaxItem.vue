@@ -61,7 +61,7 @@
                 triggerHook: (this.index === 0 ? 'onLeave' : 0.5),
                 duration: '250%'
             }).setTween(TweenMax.to(this.$el, 1, {
-                y: '-' + this.speed + '%'
+                y: '-' + this.speed + '%', ease: Power1.EasInOut
             })).addTo(window.scrollController);
         }
     }
