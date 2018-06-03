@@ -15,6 +15,7 @@ export default {
 
 <style lang="scss">
     @import 'src/config.scss';
+    @import 'src/animations.scss';
 
     html, body {
         background-color: $color-light-blue;

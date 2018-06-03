@@ -1,0 +1,60 @@
+a, .link-hover {
+    display: inline-block;
+    position: relative;
+
+    text-decoration: none;
+
+    &:after {
+        content: '';
+        display: block;
+
+        width: 0%;
+        height: 6px;
+
+        position: absolute;
+        bottom: 6px;
+        left: 0;
+
+        border-radius: 6px;
+        background-color: $color-blue;
+        opacity: .75;
+
+        transition: 300ms width cubic-bezier(.42,0,.58,.1);
+    }
+
+
+    &:hover:after {
+        width: 100%;
+    }
+
+    &.active {
+        &:after {
+            width: 100%;
+            transition: 200ms width ease-out;
+        }
+
+        &:hover:after {
+            width: 0%;
+        }
+    }
+
+    &.inline {
+        &:after {
+            left: -5%;
+        }
+
+        &:hover:after {
+            width: 110%;
+        }
+
+        &.active {
+            &:after {
+                width: 110%;
+            }
+
+            &:hover:after {
+                width: 0%;
+            }
+        }
+    }
+}

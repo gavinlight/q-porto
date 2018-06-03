@@ -1,0 +1,46 @@
+[
+    {
+        "role": "Ux Designer",
+
+        "company": "Active Collective",
+        "company_url": "https://www.activecollective.nl/",
+
+        "run_time": "September 2017 - nu",
+        "location": "Beverwijk",
+
+        "work": [
+            {
+                "text": "3 Nominaties voor de spinawards",
+                "url": "https://www.spinawards.nl/nl/home"
+            },
+            {
+                "text": "Ook ben ik kwaliteitsmanager volgens de ISO9001 norm",
+                "url": "https://nl.wikipedia.org/wiki/ISO_9001"
+            }
+        ]
+    }, {
+        "role": "Student Employee",
+
+        "company": "Deloitte Nederland",
+        "company_url": "https://www2.deloitte.com/nl/nl.html",
+
+        "run_time": "Maart 2017 - Augustus 2017",
+        "location": "Den Haag",
+
+        "work": [
+            {
+                "text": "Ik werkte op deze afdeling",
+                "url": "https://werkenbijdeloitte.nl/vakgebieden/risk-advisory"
+            }
+        ]
+    }, {
+        "role": "Eigenaar",
+
+        "company": "Quen Webdesign",
+        "company_url": "https://www.quendoline.nl",
+
+        "run_time": "September 2015 - Januari 2018",
+        "location": "Amsterdam",
+        "work": []
+    }
+]

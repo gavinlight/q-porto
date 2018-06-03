@@ -4,8 +4,13 @@
         "slug": "project-picture",
 
         "client": "VU Medisch Centrum",
+        "client_url": "https://www.vumc.nl/",
+
         "run_time": "December 2017 - Heden",
+
         "team": "Active Collective",
+        "team_url": "https://www.activecollective.nl/",
+
         "role": "User Experience Designer, Project Manager",
         "icon": "diamond",
 

@@ -16,7 +16,7 @@
         <div class="project-content-container">
             <router-link :to="{ name: 'project', params: { slug: project.slug }}">
                 <img :src="this.icon_url" class="icon" />
-                <h1>{{ project.title }}</h1>
+                <h1 class="link-hover inline">{{ project.title }}</h1>
                 <p class="info"><strong>{{ project.client }} <span>•</span></strong> {{ project.run_time }}</p>
             </router-link>
         </div>
@@ -74,13 +74,18 @@
                 text-decoration: none;
                 display: inline-block;
 
-                > h1 {
-                    margin: .3em 0;
-                    font-family: $font-header;
-                    font-size: 3em;
+                &:hover:after {
+                    display: none;
                 }
 
-                > p {
+                > h1 {
+                    margin: .3em auto;
+                    font-family: $font-header;
+                    font-size: 3em;
+                    display: table;
+                }
+
+                > .info {
                     font-size: 1.2em;
 
                     > strong {
