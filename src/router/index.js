@@ -14,9 +14,4 @@ const router = new Router({
     ]
 });
 
-router.beforeEach(function (to, from, next) {
-    if(to.name !== 'home') setTimeout(() => { window.scrollTo(0, 0), 100 });
-    next();
-})
-
 export default router;

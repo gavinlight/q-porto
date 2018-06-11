@@ -1,23 +1,44 @@
 <template>
 
-    <!-- <header-layout /> -->
+    <div>
+        <header-layout />
 
-    <main class="page-home">
-        <div class="container">
-            <p>Ik ben Quendoline, en ik ben werkzaam als interaction designer met een liefde voor UX. Sinds een jaar ben ik afgestudeerd en werkzaam bij Active Collective, waar ik onder andere werk aan projecten voor <router-link class="active inline" :to="{ name: 'project', params: { slug: 'project-picture' }}">VUmc</router-link> en <router-link class="active inline" :to="{ name: 'project', params: { slug: 'mijn-lidl' }}">Lidl</router-link></p>
-        </div>
-        <projects-overview />
-    </main>
+        <main class="page-home">
+            <div class="container">
+                <p>
+                    Ik ben Quendoline, en ik ben werkzaam als interaction designer met een liefde voor UX.
+                    Sinds een jaar ben ik afgestudeerd en werkzaam bij Active Collective,
+                    waar ik onder andere werk aan projecten voor
+                    <router-link
+                        v-on:click.native="mousePos($event.clientX, $event.clientY)"
+                        class="active"
+                        :to="{ name: 'project', params: { slug: 'project-picture' }}">
+                        VUmc
+                    </router-link> en
+                    <router-link
+                        v-on:click.native="mousePos($event.clientX, $event.clientY)"
+                        class="active"
+                        :to="{ name: 'project', params: { slug: 'mijn-lidl' }}">
+                        Lidl
+                    </router-link>
+                </p>
+            </div>
+            <projects-overview />
+        </main>
 
-    <!-- <footer-layout /> -->
+        <footer-layout />
+    </div>
+
 </template>
 
 <script>
+    import HeaderLayout from '@/components/global/header';
+    import FooterLayout from '@/components/global/footer';
     import ProjectsOverview from '@/components/sections/ProjectsOverview';
 
     export default {
         name: 'PageHome',
-        components: { ProjectsOverview }
+        components: { FooterLayout, HeaderLayout, ProjectsOverview }
     }
 
 </script>

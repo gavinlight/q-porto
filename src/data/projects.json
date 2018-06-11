@@ -1,6 +1,7 @@
 [
     {
         "title": "Project Picture",
+        "sub_title": "Brain tumor treatment",
         "slug": "project-picture",
 
         "client": "VU Medisch Centrum",
@@ -62,6 +63,7 @@
     },
     {
         "title": "Creative Code",
+        "sub_title": "Coding is for girls",
         "slug": "creative-code",
 
         "client": "Hogeschool van Amsterdam",
@@ -129,6 +131,7 @@
     },
     {
         "title": "Mijn Lidl",
+        "sub_title": "Building involvement",
         "slug": "mijn-lidl",
 
         "client": "Lidl Nederland",
@@ -136,13 +139,14 @@
         "team": "Active Collective",
         "role": "User Experience Designer, Project Manager",
 
-        "icon": "bracket",
+        "icon": "sphere",
         "content": "",
 
         "parallax_items": []
     },
     {
         "title": "Onere",
+        "sub_title": "The charging solution",
         "slug": "onere",
 
         "client": "Lidl Nederland",
@@ -150,13 +154,14 @@
         "team": "Active Collective",
         "role": "User Experience Designer, Project Manager",
 
-        "icon": "bracket",
+        "icon": "sphere",
         "content": "",
 
         "parallax_items": []
     },
     {
         "title": "Blij Nederland",
+        "sub_title": "Insight into happiness",
         "slug": "blij-nederland",
 
         "client": "Lidl Nederland",
@@ -164,7 +169,7 @@
         "team": "Active Collective",
         "role": "User Experience Designer, Project Manager",
 
-        "icon": "bracket",
+        "icon": "sphere",
         "content": "",
 
         "parallax_items": []

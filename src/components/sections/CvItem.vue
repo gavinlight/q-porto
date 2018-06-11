@@ -42,15 +42,18 @@
 
         > h2 {
             font-family: $font-header;
-            font-size: 2.5em;
-            margin-bottom: .3em;
+            font-size: 2em;
+            margin-bottom: .5em;
         }
 
         > p.info {
             font-size: 1.2em;
 
-            a:after {
-                bottom: 0px;
+            a {
+                display: inline;
+                &:after {
+                    bottom: 0px;
+                }
             }
 
             strong {
@@ -60,6 +63,12 @@
             > span {
                 margin: 0 .3em;
                 color: $color-black;
+
+                @media(max-width: 420px){
+                    display: block;
+                    opacity: 0;
+                    height: 5px;
+                }
             }
         }
 
@@ -72,9 +81,13 @@
                 list-style: disc;
                 line-height: 1.7em;
 
-                a:after {
-                    bottom: 6px;
-                    background-color: $color-green;
+                a {
+                    display: inline;
+
+                    &:after {
+                        bottom: 2px;
+                        background-color: $color-green;
+                    }
                 }
             }
         }

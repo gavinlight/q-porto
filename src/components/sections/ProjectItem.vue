@@ -14,9 +14,12 @@
         </template>
 
         <div class="project-content-container">
-            <router-link :to="{ name: 'project', params: { slug: project.slug }}">
+            <router-link
+                v-on:click.native="mousePos($event.clientX, $event.clientY)"
+                :to="{ name: 'project', params: { slug: project.slug }}"
+            >
                 <img :src="this.icon_url" class="icon" />
-                <h1 class="link-hover inline">{{ project.title }}</h1>
+                <h1 class="link-hover">{{ project.title }}</h1>
                 <p class="info"><strong>{{ project.client }} <span>•</span></strong> {{ project.run_time }}</p>
             </router-link>
         </div>

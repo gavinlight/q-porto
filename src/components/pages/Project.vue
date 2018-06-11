@@ -1,53 +1,56 @@
 <template>
 
-    <!-- <header-layout /> -->
+    <div>
+        <header-layout />
 
-    <main class="page-project" v-on:scroll="handleScroll">
-        <span class="scroll-percentage"></span>
+        <main class="page-project" v-on:scroll="handleScroll">
+            <span class="scroll-percentage"></span>
 
-        <section class="project-intro">
-            <div class="container">
-                <span>{{ project.team }}</span>
-                <h1>{{ project.title }}</h1>
+            <section class="project-intro">
+                <div class="container">
+                    <span>{{ project.team }}</span>
+                    <h1>{{ project.title }}</h1>
 
-                <ul class="project-info">
-                    <li>
-                        <span>At</span>
-                        {{ project.client  }}
-                    </li><li>
-                        <span>Focus</span>
-                        {{ project.role  }}
-                    </li><li>
-                        <span>When</span>
-                        {{ project.run_time  }}
-                    </li>
-                </ul>
+                    <ul class="project-info">
+                        <li>
+                            <span>At</span>
+                            {{ project.client  }}
+                        </li><li>
+                            <span>Focus</span>
+                            {{ project.role  }}
+                        </li><li>
+                            <span>When</span>
+                            {{ project.run_time  }}
+                        </li>
+                    </ul>
 
-                <div class="intro-content" v-html="project.intro"></div>
+                    <div class="intro-content" v-html="project.intro"></div>
+                </div>
 
+                <img :src="this.header_image" />
+            </section>
 
-            </div>
+            <section class="project-content">
+                <div class="container">
+                    <article v-html="project.content"></article>
+                </div>
+            </section>
 
-            <img :src="this.header_image" />
-        </section>
+        </main>
 
-        <section class="project-content">
-            <div class="container">
-                <article v-html="project.content"></article>
-            </div>
-        </section>
+        <footer-layout />
+    </div>
 
-    </main>
-
-    <!-- <footer-layout /> -->
 </template>
 
 <script>
-
+    import HeaderLayout from '@/components/global/header';
+    import FooterLayout from '@/components/global/footer';
     import Projects from '@/data/projects.json';
 
     export default {
         name: 'PageProject',
+        components: { FooterLayout, HeaderLayout },
         props: {
             'slug': { type: String }
         },
@@ -92,8 +95,13 @@
 </script>
 
 <style lang="scss" scoped>
-
     main.page-project {
+        position: relative;
+        z-index: 2;
+
+        @media(max-width: 1000px){
+            margin-top: 4em;
+        }
 
         > .scroll-percentage {
             height: 6px;
@@ -147,14 +155,24 @@
                             opacity: .5;
                             display: inline;
                         }
+
+                        @media(max-width: 450px){
+                            width: 100%;
+                            margin-right: 0;
+                            &:nth-child(odd){
+                                margin-right: 0;
+                            }
+                        }
                     }
                 }
             }
 
             > img {
                 width: 100%;
+                max-width: 1280px;
                 height: auto;
-                margin: 2em 0;
+                margin: 2em auto;
+                display: block;
             }
         }
 
