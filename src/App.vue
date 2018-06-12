@@ -30,7 +30,7 @@ export default {
             circle.setAttribute("cx", window.position.x);
             circle.setAttribute("cy", window.position.y);
 
-            TweenLite.to(circle, .5, { fill: '#EBEFF1', attr: { r: window.innerWidth * 1.5 }, onComplete: () => {
+            TweenLite.to(circle, .8, { fill: '#EBEFF1', attr: { r: window.innerWidth * 1.5 }, onComplete: () => {
                 el.classList.remove('animate-svg');
                 window.scrollTo(0, 0);
                 done();
