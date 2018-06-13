@@ -46,8 +46,8 @@ export default {
 </script>
 
 <style lang="scss">
-    @import 'src/reset.scss';
-    @import 'src/animations.scss';
+    @import 'src/style/reset.scss';
+    @import 'src/style/animations.scss';
 
     html, body {
         background-color: $color-light-blue;
