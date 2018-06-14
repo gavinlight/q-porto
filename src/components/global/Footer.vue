@@ -52,7 +52,7 @@
                 margin: 0 auto;
 
                 a:after {
-                    bottom: 0px;
+                    bottom: 1px;
                 }
 
                 span {

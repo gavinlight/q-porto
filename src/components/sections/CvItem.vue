@@ -52,7 +52,7 @@
             a {
                 display: inline;
                 &:after {
-                    bottom: 0px;
+                    bottom: 4px;
                 }
             }
 
@@ -85,7 +85,7 @@
                     display: inline;
 
                     &:after {
-                        bottom: 2px;
+                        bottom: 4px;
                         background-color: $color-green;
                     }
                 }
