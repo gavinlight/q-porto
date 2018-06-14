@@ -30,7 +30,9 @@ export default {
             circle.setAttribute("cx", window.position.x);
             circle.setAttribute("cy", window.position.y);
 
-            TweenLite.to(circle, .8, { fill: '#EBEFF1', attr: { r: window.innerWidth * 1.5 }, onComplete: () => {
+            let radius = ( window.innerWidth > window.innerHeight ) ? window.innerWidth : window.innerHeight;
+
+            TweenLite.to(circle, .8, { fill: '#EBEFF1', attr: { r: radius * 1.5 }, onComplete: () => {
                 el.classList.remove('animate-svg');
                 if(this.$route.name !== 'work') window.scrollTo(0, 0);
                 done();
