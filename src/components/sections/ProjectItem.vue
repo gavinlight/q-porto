@@ -68,10 +68,22 @@
             height: 50vh;
         }
 
+        @media(max-width: 650px){
+            &.project-type-featured {
+                height: 50vh;
+            }
+
+            .parallax-item {
+                display: none
+            }
+        }
+
+
         > .project-content-container {
             display: table-cell;
             text-align: center;
             vertical-align: middle;
+            padding: 0 2em;
 
             > a {
                 text-decoration: none;
@@ -86,10 +98,21 @@
                     font-family: $font-header;
                     font-size: 3em;
                     display: table;
+
+                    @media(max-width: 650px){
+                        font-size: 2em;
+                        &:after {
+                            bottom: 2px;
+                        }
+                    }
                 }
 
                 > .info {
                     font-size: 1.2em;
+
+                    @media(max-width: 650px){
+                        font-size: 1em;
+                    }
 
                     > strong {
                         color: $color-black;

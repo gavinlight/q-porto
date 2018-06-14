@@ -32,11 +32,12 @@ export default {
 
             TweenLite.to(circle, .8, { fill: '#EBEFF1', attr: { r: window.innerWidth * 1.5 }, onComplete: () => {
                 el.classList.remove('animate-svg');
-                window.scrollTo(0, 0);
+                if(this.$route.name !== 'work') window.scrollTo(0, 0);
                 done();
             }} );
         },
         enter: function(el, done){
+            if(this.$route.name === 'work') document.querySelector('.projects-overview').scrollIntoView();
             el.style.opacity = 0;
             TweenLite.to(el, 1, {opacity: 1});
         }

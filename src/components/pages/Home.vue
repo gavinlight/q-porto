@@ -38,7 +38,14 @@
 
     export default {
         name: 'PageHome',
-        components: { FooterLayout, HeaderLayout, ProjectsOverview }
+        components: { FooterLayout, HeaderLayout, ProjectsOverview },
+        mounted(){
+            if(this.$route.name === 'work'){
+                setTimeout(() => {
+                    this.$el.querySelector('.projects-overview').scrollIntoView();
+                }, 100);
+            }
+        }
     }
 
 </script>

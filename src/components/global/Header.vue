@@ -13,11 +13,13 @@
             <nav>
                 <router-link
                     v-on:click.native="mousePos($event.clientX, $event.clientY)"
-                    :to="{ name: 'home' }">
+                    :class="{ active: isActiveRoute('work') }"
+                    :to="{ name: 'work' }">
                     My Work
                 </router-link>
                 <router-link
                     v-on:click.native="mousePos($event.clientX, $event.clientY)"
+                    :class="{ active: isActiveRoute('about') }"
                     :to="{ name: 'about' }">
                     About me
                 </router-link>
@@ -35,7 +37,12 @@
         name: 'HeaderLayout',
         components: {
             Logo
-        }
+        },
+        methods: {
+            isActiveRoute: function(route) {
+                return this.$route.name === route;
+            }
+        },
     }
 
 </script>

@@ -25,3 +25,10 @@
     }
 
 </script>
+
+<style>
+    section.projects-overview {
+        max-width: 1480px;
+        margin: 0 auto;
+    }
+</style>

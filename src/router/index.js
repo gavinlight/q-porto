@@ -9,6 +9,7 @@ import PageProject from '../components/pages/Project';
 const router = new Router({
     routes: [
         { path: '/', name: 'home', component: PageHome },
+        { path: '/work', name: 'work', component: PageHome },
         { path: '/about', name: 'about', component: PageAbout },
         { path: '/project/:slug', name: 'project', component: PageProject, props: true }
     ]
